@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #D4ECDD;
+}
+
+h1 {
+    margin: 10px auto 0 auto;  /* 1rem = 16px = 100% */
+    font-family: 'Parisienne', cursive;
+    font-size: 5.625rem; 
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+
+a {
+    color: #11999e;
+}
+
+.top-container {
+    background-color: #152D35;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+}
+
+.top-img {
+    width: 550px;
+    margin-top: 60px;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 80px;
+}
+
+.middle-container {
+    background-color: #345B63;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 175px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.web-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.design-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    padding-bottom: 80px;
+    line-height: 2;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #112031;
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    color: #D4ECDD;
+}
+
+.btn:hover {
+    color: #11999e;
+    background-color: #D4ECDD;
+    transition: 0.5s all;
+}
+
+.bottom-container {
+    background-color: #112031;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+hr {
+    border: none;
+    border-top: 4px dotted gray;
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-link {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
