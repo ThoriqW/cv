@@ -29,6 +29,10 @@ a {
     color: #11999e;
 }
 
+p {
+    line-height: 2;
+}
+
 .top-container {
     background-color: #152D35;
     padding-top: 100px;
@@ -88,7 +92,6 @@ a {
 
 .contact-me {
     padding-bottom: 80px;
-    line-height: 2;
 }
 
 .contact-me-massage {
@@ -114,8 +117,8 @@ a {
 
 .bottom-container {
     background-color: #112031;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 hr {
@@ -131,6 +134,10 @@ hr {
     text-decoration: none;
     margin-right: 20px;
     margin-bottom: 30px;
+}
+
+.footer-name {
+    margin-bottom: 0;
 }
 
 @media (max-width: 1097px) {
