@@ -166,4 +166,8 @@ hr {
     .contact-me-massage {
         width: 60%;
     }
+    
+    .top-img {
+        width: 300px;
+    }
 }
