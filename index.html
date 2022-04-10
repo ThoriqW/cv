@@ -1,64 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="image/user.png">
-    <title>Thoriq Wajedi</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="image/user.png">
+  <title>Thoriq Wajedi</title>
 </head>
+
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="image/cloud.png" alt="cloud-img">
-        <h1>I'm Thoriq</h1>
-        <h2>a web developer</h2>
-        <img class="bottom-cloud" src="image/cloud.png" alt="cloud-img">
-        <img class="top-img" src="image/undraw_web_development_w2vv.svg" alt="mountain-img">
+  <div class="top-container">
+    <img class="top-cloud" src="image/cloud.png" alt="cloud-img">
+    <h1>I'm Thoriq</h1>
+    <h2>a web developer</h2>
+    <img class="bottom-cloud" src="image/cloud.png" alt="cloud-img">
+    <img class="top-img" src="image/undraw_web_development_w2vv.svg" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="image/profil1.jpg" alt="">
+      <h2>Hello.</h2>
+      <p class="intro">I am a web developer living in Palu, Sulawesi Tengah, Indonesia. I study at STMIK Bina Mulia Palu
+        majoring in Informatics Engineering</p>
     </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img src="image/profil1.jpg" alt="">
-          <h2>Hello.</h2>
-          <p class="intro">I am a web developer living in Palu, Sulawesi Tengah, Indonesia. I love coffe and watching movie</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="web-img" src="image/browser.png" alt="skill-img">
-            <h3>Web Development</h3>
-            <p>I spend my days to learning many different areas of web development from back end and front end.</p>
-          </div>
-          <div class="skill-row">
-            <img class="design-img" src="image/web-design.png" alt="">
-            <h3>Web Design</h3>
-            <p>Design your website looks good as much I can do with CSS, HTML, Bootstrap and more.</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>I'm currently available for freelance work.</h3>
-          <p class="contact-me-massage">If you have a project to get started. think you need my help or just have some a question, then contact me</p>
-          <a class="btn" href="mailto:thoriqwajedi88@gmail.com">CONTACT ME</a>
+
+    <hr>
+
+    <h2 class="title-project">My Project.</h2>
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+            <div class="row">
+              <div class="col-md-6 ">
+                <div class="box-image-project">
+                  <figure>
+                    <img class="image-project" src="image/project-todo-list.png" alt="">
+                    <div class="layer">
+                      <figcaption>
+                        <h2>Todo List</h2>
+                        <a href="https://boiling-wave-90358.herokuapp.com/"><button class="btn btn-outline-primary btn-project">Visit Website</button></a>
+                      </figcaption>
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="box-image-project">
+                  <figure>
+                    <img class="image-project" src="image/project-newsletter.png" alt="">
+                    <div class="layer">
+                      <figcaption>
+                        <h2>Newsletter App</h2>
+                        <a href="https://boiling-ridge-32001.herokuapp.com/"><button class="btn btn-outline-primary btn-project">Visit Website</button></a>
+                      </figcaption>
+                    </div>
+                  </figure>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/moh-thoriq-wajedi-a32384220/">LinkedIn</a>
-        <a class="footer-link" href="https://web.facebook.com/asd.ova.56/">Facebook</a>
-        <a class="footer-link" href="https://www.instagram.com/mthoriqwajedi/">Instagram</a>
-        <p>© 2021 Moh Thoriq Wajedi.</p>
+      <button class="carousel-control-prev contorl-carousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next contorl-carousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <hr>
+
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="web-img" src="image/browser.png" alt="skill-img">
+        <h3>Web Development</h3>
+        <p>I spend my days to learning many different areas of web development from back end and front end.</p>
       </div>
-      
+      <div class="skill-row">
+        <img class="design-img" src="image/web-design.png" alt="">
+        <h3>Web Design</h3>
+        <p>Design your website looks good as much I can do with CSS, HTML, Bootstrap and more.</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <hr>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I'm currently available for freelance work.</h3>
+      <p class="contact-me-massage">If you have a project to get started. think you need my help or just have some a
+        question, then contact me</p>
+      <a class="btn-contact" href="mailto:thoriqwajedi88@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/moh-thoriq-wajedi-a32384220/">LinkedIn</a>
+    <a class="footer-link" href="https://web.facebook.com/asd.ova.56/">Facebook</a>
+    <a class="footer-link" href="https://www.instagram.com/mthoriqwajedi/">Instagram</a>
+    <p>© 2021 Moh Thoriq Wajedi.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

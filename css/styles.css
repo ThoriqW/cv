@@ -33,6 +33,10 @@ p {
     line-height: 2;
 }
 
+.container-fluid {
+    padding: 0% 10%;
+}
+
 .top-container {
     background-color: #152D35;
     padding-top: 100px;
@@ -60,12 +64,82 @@ p {
     width: 150px;
     border-radius: 100%;
     margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 .intro {
     width: 30%;
-    margin: auto;
+    margin: 30px auto;
 }
+
+.contorl-carousel {
+    width: 10%;
+}
+
+.title-project {
+    margin-bottom: 100px;
+}
+
+.image-project {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+figure {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.layer:hover {
+    background-color: #112031;
+}
+
+.box-image-project {
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    position: relative;
+    transition: 0.5s;
+    top: 90%;
+    opacity: 0;
+    color: #66BFBF;
+}
+
+.layer:hover figcaption {
+    top: 40%;
+    opacity: 1;
+}
+
+.btn-project {
+    border-color: #11999e;
+    color: #D4ECDD;
+    margin-top: 10px;
+}
+
+.btn-project:hover {
+    background-color: #11999e;
+    border-color: #11999e;
+}
+
+/* .btn-project:active {
+    background-color: none;
+   }  */
 
 .middle-container {
     background-color: #345B63;
@@ -90,6 +164,10 @@ p {
     margin-left: 30px;
 }
 
+.clear {
+    clear: both;
+}
+
 .contact-me {
     padding-bottom: 80px;
 }
@@ -99,17 +177,17 @@ p {
     margin: 40px auto;
 }
 
-.btn {
+.btn-contact {
     display: inline-block;
     text-decoration: none;
     background-color: #112031;
     margin-top: 20px;
-    padding: 5px 15px 5px 15px;
+    padding: 10px 15px;
     border-radius: 10px;
     color: #D4ECDD;
 }
 
-.btn:hover {
+.btn-contact:hover {
     color: #11999e;
     background-color: #D4ECDD;
     transition: 0.5s all;
@@ -122,11 +200,11 @@ p {
 }
 
 hr {
-    border: none;
+    /* border: none;
     border-top: 4px dotted gray;
-    width: 5%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 5%; */
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .footer-link {
